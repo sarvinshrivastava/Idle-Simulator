@@ -1,4 +1,4 @@
-# AFK
+# Idle Simulator
 
 This project simulates keyboard and mouse activity to prevent inactivity detection. It uses the `pynput` library to monitor real user activity and simulate keystrokes and mouse movements when inactivity is detected.
 
@@ -17,8 +17,8 @@ This project simulates keyboard and mouse activity to prevent inactivity detecti
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/afk-simulation.git
-   cd afk-simulation
+   git clone https://github.com/sarvinshrivastava/idle-simulator.git
+   cd idle-simulator
    ```
 
 2. Install the required packages:
@@ -35,19 +35,7 @@ This project simulates keyboard and mouse activity to prevent inactivity detecti
 
 2. The script will start monitoring keyboard and mouse activity. If no activity is detected for 30 seconds, it will start simulating keystrokes and mouse movements.
 
-## Converting to an Executable
-
-You can convert the script to an executable file using `PyInstaller`:
-
-1. Install `PyInstaller`:
-   ```sh
-   pip install pyinstaller
-   ```
-
-2. Create the executable:
-   ```sh
-   pyinstaller --onefile --windowed afk.py
-   ```
+3. To exit the simulation, press middel mouse button.
 
 ## Logging
 
@@ -55,7 +43,4 @@ All activities are logged to a file in the `logs` directory. Each run creates a 
 
 ## License
 
-This project is licensed under the MIT License.
-```
-
-This `README.md` file provides an overview of the project, installation instructions, usage details, and information on converting the script to an executable.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
